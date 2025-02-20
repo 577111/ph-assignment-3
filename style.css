@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+*{
+    font-family: ADLaM Display;
+    max-width: 100%;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    border:3px solid green;
+}
+.banner>h3, .banner>p{
+    width:50%;
+    z-index: 5;
+    
+}
+.browsecardcontainer>.card{
+
+    display:block;
+    padding: 34px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.categoryCard{
+    background: #F9DF8A;
+    border-radius: 5%;
+}
+.banner>img{
+    position:relative;
+    top:-200px;
+    z-index: -3;
+    
+}
+.card{
+    width:100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+.card>img{
+   background: #fcf8f8;
+   border-radius: 50%;
+   padding:8px;
+   margin:0 auto;
+}
+
+.card>h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 60px;
+    
+}
+.card>h3,.card>p{
+    text-align:center ;
+}
+.bigProductCard{
+
+    
+    padding-right: 80px;
+    background: #F9DF8A;
+    margin-right: 34px;
+    border-radius: 23px;
+    padding:34px;
+}
+ .bigProductCard img{
+    
+    float:right;
+    padding-top:0;
+    margin-top:-40px;
+    
+ }
+
+ 
+
+.product{
+    padding:16px;
+    border-radius:12px;
+    display: flex;
+    align-items: center;
+    gap:34px;
+    box-shadow: 0px 0px 3px gray;
+    
+}
+.imgCard{
+    background: rgb(247, 233, 223);
+    padding:8px;
+    border-radius: 10px;
+}
+
+.product i{
+    color:rgb(201, 201, 65);
+    
+}
+.lowPriceContainer{
+    
+}
+.lowPriceCard{
+    border-radius: 9px;
+}
+.lowPriceContainer>.card1{
+    background: linear-gradient(90deg, rgba(241, 151, 226, 0.5) 10%, rgb(126, 198, 240,0.4) 90%);
+    padding-left: 80px;
+}
+
+.lowPriceContainer>.card1>img{
+    box-shadow: 0px 1px 6px rgb(155, 154, 154);
+    border-radius: 9px;
+}
+
+.lowPriceContainer>.card2>.text{
+    display: inline;
+    
+}
+.lowPriceContainer>.card2{
+     background: linear-gradient(128deg, rgba(245, 241, 212, 0.76) 0%, rgba(212, 189, 53, 0.774) 100%);
+    
+}
+
+
+
+.lowPriceContainer>.card2>img{
+    display: block;
+   
+    height: auto;
+    
+}
+
+.subsText>h1, .subsText>p{
+    line-height: 60px;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-end ;
+    padding-bottom:80px;
+
+}
+.footerManue>ul>li{
+    padding:3px 4px;
+    
+}
+
+.ficons>i{
+    font-size:23px ;
+    margin:10px;
+}
+
+
+@media screen and (max-width:560px) {
+    .banner>p{
+        width:70%;
+    }
+}
